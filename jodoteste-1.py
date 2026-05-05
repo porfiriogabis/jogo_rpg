@@ -1,5 +1,5 @@
 def inicio():
-    print("Você é um detetive investigando um assassinato misterioso.")
+    print("Escolha o gênero do seu personagem!")
     print("Você chega à cena do crime. O que deseja fazer?")
     print("1 - Examinar o corpo")
     print("2 - Interrogar testemunhas")
@@ -9,7 +9,7 @@ def inicio():
     if escolha == "1":
         examinar_corpo()
     elif escolha == "2":
-        interrogar()
+        interrogar()            
     else:
         print("Escolha inválida.")
         inicio()
