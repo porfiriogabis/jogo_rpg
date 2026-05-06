@@ -1,3 +1,5 @@
+#Teste incial para ideia de jogo futuro
+
 def inicio():
     print("Escolha o gênero do seu personagem!")
     print("Você chega à cena do crime. O que deseja fazer?")
@@ -49,3 +51,5 @@ def final_ruim():
     print("\nO culpado escapou... Caso encerrado sem solução.")
 
 inicio()
+
+
